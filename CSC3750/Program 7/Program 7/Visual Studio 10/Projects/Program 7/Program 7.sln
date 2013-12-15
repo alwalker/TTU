@@ -1,0 +1,81 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Resources", "Resources", "{89DB7CB6-88AD-4E0F-83AF-B1F337C83D98}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\TTU\CSC3750\Programs\Program #7\camera.txt = ..\..\..\TTU\CSC3750\Programs\Program #7\camera.txt
+		..\..\..\TTU\CSC3750\Programs\Program #7\cube.txt = ..\..\..\TTU\CSC3750\Programs\Program #7\cube.txt
+		..\..\..\TTU\CSC3750\Programs\Program #7\cube_texture.txt = ..\..\..\TTU\CSC3750\Programs\Program #7\cube_texture.txt
+		..\..\..\TTU\CSC3750\Programs\Program #7\cylinder.txt = ..\..\..\TTU\CSC3750\Programs\Program #7\cylinder.txt
+		..\..\..\TTU\CSC3750\Programs\Program #7\fov.txt = ..\..\..\TTU\CSC3750\Programs\Program #7\fov.txt
+		..\..\..\TTU\CSC3750\Programs\Program #7\shade.txt = ..\..\..\TTU\CSC3750\Programs\Program #7\shade.txt
+		..\..\..\TTU\CSC3750\Programs\Program #7\shade2.txt = ..\..\..\TTU\CSC3750\Programs\Program #7\shade2.txt
+		..\..\..\TTU\CSC3750\Programs\Program #7\sphere.txt = ..\..\..\TTU\CSC3750\Programs\Program #7\sphere.txt
+		..\..\..\TTU\CSC3750\Programs\Program #7\trs.txt = ..\..\..\TTU\CSC3750\Programs\Program #7\trs.txt
+		..\..\..\TTU\CSC3750\Programs\Program #7\trs2.txt = ..\..\..\TTU\CSC3750\Programs\Program #7\trs2.txt
+		..\..\..\TTU\CSC3750\Programs\Program #7\trs3.txt = ..\..\..\TTU\CSC3750\Programs\Program #7\trs3.txt
+		..\..\..\TTU\CSC3750\Programs\Program #7\trs4.txt = ..\..\..\TTU\CSC3750\Programs\Program #7\trs4.txt
+		..\..\..\TTU\CSC3750\Programs\Program #7\trs_cube.txt = ..\..\..\TTU\CSC3750\Programs\Program #7\trs_cube.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Headers", "Headers", "{75E01C28-D52F-494D-8D9E-1F5C0A1CE4D2}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\TTU\CSC3750\Programs\Program #7\AffineTransforms.h = ..\..\..\TTU\CSC3750\Programs\Program #7\AffineTransforms.h
+		..\..\..\TTU\CSC3750\Programs\Program #7\BasicMatrix.h = ..\..\..\TTU\CSC3750\Programs\Program #7\BasicMatrix.h
+		..\..\..\TTU\CSC3750\Programs\Program #7\BasicObject.h = ..\..\..\TTU\CSC3750\Programs\Program #7\BasicObject.h
+		..\..\..\TTU\CSC3750\Programs\Program #7\Color.h = ..\..\..\TTU\CSC3750\Programs\Program #7\Color.h
+		..\..\..\TTU\CSC3750\Programs\Program #7\DeleteObject.h = ..\..\..\TTU\CSC3750\Programs\Program #7\DeleteObject.h
+		..\..\..\TTU\CSC3750\Programs\Program #7\Face.h = ..\..\..\TTU\CSC3750\Programs\Program #7\Face.h
+		..\..\..\TTU\CSC3750\Programs\Program #7\FileIO.h = ..\..\..\TTU\CSC3750\Programs\Program #7\FileIO.h
+		..\..\..\TTU\CSC3750\Programs\Program #7\InstanceObject.h = ..\..\..\TTU\CSC3750\Programs\Program #7\InstanceObject.h
+		..\..\..\TTU\CSC3750\Programs\Program #7\Light.h = ..\..\..\TTU\CSC3750\Programs\Program #7\Light.h
+		..\..\..\TTU\CSC3750\Programs\Program #7\List.h = ..\..\..\TTU\CSC3750\Programs\Program #7\List.h
+		..\..\..\TTU\CSC3750\Programs\Program #7\ListIterator.h = ..\..\..\TTU\CSC3750\Programs\Program #7\ListIterator.h
+		..\..\..\TTU\CSC3750\Programs\Program #7\Matrix.h = ..\..\..\TTU\CSC3750\Programs\Program #7\Matrix.h
+		..\..\..\TTU\CSC3750\Programs\Program #7\Node.h = ..\..\..\TTU\CSC3750\Programs\Program #7\Node.h
+		..\..\..\TTU\CSC3750\Programs\Program #7\Picture.h = ..\..\..\TTU\CSC3750\Programs\Program #7\Picture.h
+		..\..\..\TTU\CSC3750\Programs\Program #7\Pixel.h = ..\..\..\TTU\CSC3750\Programs\Program #7\Pixel.h
+		..\..\..\TTU\CSC3750\Programs\Program #7\Scene.h = ..\..\..\TTU\CSC3750\Programs\Program #7\Scene.h
+		..\..\..\TTU\CSC3750\Programs\Program #7\Texture.h = ..\..\..\TTU\CSC3750\Programs\Program #7\Texture.h
+		..\..\..\TTU\CSC3750\Programs\Program #7\TransformNode.h = ..\..\..\TTU\CSC3750\Programs\Program #7\TransformNode.h
+		..\..\..\TTU\CSC3750\Programs\Program #7\Vector.h = ..\..\..\TTU\CSC3750\Programs\Program #7\Vector.h
+		..\..\..\TTU\CSC3750\Programs\Program #7\Vertex.h = ..\..\..\TTU\CSC3750\Programs\Program #7\Vertex.h
+		..\..\..\TTU\CSC3750\Programs\Program #7\Window.h = ..\..\..\TTU\CSC3750\Programs\Program #7\Window.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{C5FAD4AB-F05F-4589-A275-E8E635716E71}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\TTU\CSC3750\Programs\Program #7\AffineTransforms.cpp = ..\..\..\TTU\CSC3750\Programs\Program #7\AffineTransforms.cpp
+		..\..\..\TTU\CSC3750\Programs\Program #7\BasicMatrix.cpp = ..\..\..\TTU\CSC3750\Programs\Program #7\BasicMatrix.cpp
+		..\..\..\TTU\CSC3750\Programs\Program #7\BasicObject.cpp = ..\..\..\TTU\CSC3750\Programs\Program #7\BasicObject.cpp
+		..\..\..\TTU\CSC3750\Programs\Program #7\Color.cpp = ..\..\..\TTU\CSC3750\Programs\Program #7\Color.cpp
+		..\..\..\TTU\CSC3750\Programs\Program #7\DeleteObject.cpp = ..\..\..\TTU\CSC3750\Programs\Program #7\DeleteObject.cpp
+		..\..\..\TTU\CSC3750\Programs\Program #7\Face.cpp = ..\..\..\TTU\CSC3750\Programs\Program #7\Face.cpp
+		..\..\..\TTU\CSC3750\Programs\Program #7\FileIO.cpp = ..\..\..\TTU\CSC3750\Programs\Program #7\FileIO.cpp
+		..\..\..\TTU\CSC3750\Programs\Program #7\InstanceObject.cpp = ..\..\..\TTU\CSC3750\Programs\Program #7\InstanceObject.cpp
+		..\..\..\TTU\CSC3750\Programs\Program #7\Light.cpp = ..\..\..\TTU\CSC3750\Programs\Program #7\Light.cpp
+		..\..\..\TTU\CSC3750\Programs\Program #7\Main.cpp = ..\..\..\TTU\CSC3750\Programs\Program #7\Main.cpp
+		..\..\..\TTU\CSC3750\Programs\Program #7\Matrix.cpp = ..\..\..\TTU\CSC3750\Programs\Program #7\Matrix.cpp
+		..\..\..\TTU\CSC3750\Programs\Program #7\Node.cpp = ..\..\..\TTU\CSC3750\Programs\Program #7\Node.cpp
+		..\..\..\TTU\CSC3750\Programs\Program #7\Picture.cpp = ..\..\..\TTU\CSC3750\Programs\Program #7\Picture.cpp
+		..\..\..\TTU\CSC3750\Programs\Program #7\Pixel.cpp = ..\..\..\TTU\CSC3750\Programs\Program #7\Pixel.cpp
+		..\..\..\TTU\CSC3750\Programs\Program #7\Scene.cpp = ..\..\..\TTU\CSC3750\Programs\Program #7\Scene.cpp
+		..\..\..\TTU\CSC3750\Programs\Program #7\Texture.cpp = ..\..\..\TTU\CSC3750\Programs\Program #7\Texture.cpp
+		..\..\..\TTU\CSC3750\Programs\Program #7\TransformNode.cpp = ..\..\..\TTU\CSC3750\Programs\Program #7\TransformNode.cpp
+		..\..\..\TTU\CSC3750\Programs\Program #7\Vector.cpp = ..\..\..\TTU\CSC3750\Programs\Program #7\Vector.cpp
+		..\..\..\TTU\CSC3750\Programs\Program #7\Vertex.cpp = ..\..\..\TTU\CSC3750\Programs\Program #7\Vertex.cpp
+		..\..\..\TTU\CSC3750\Programs\Program #7\Window.cpp = ..\..\..\TTU\CSC3750\Programs\Program #7\Window.cpp
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 1
+		SccProjectName0 = \u0022$/Me/TTU/CSC3750/Program\u00207/Program\u00207\u0022,\u0020MFMAAAAA
+		SccLocalPath0 = ..\\..\\..
+		SccProvider0 = MSSCCI:Microsoft\u0020Visual\u0020SourceSafe
+		SccProjectFilePathRelativizedFromConnection0 = Visual\u0020Studio\u002010\\Projects\\Program\u00207\\
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,29 @@
+﻿<Window x:Class="TTU.CSC4950.SMC.PresentationLayer.HistoryWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="HistoryWindow" Height="600" Width="800" Background="{StaticResource {x:Static SystemColors.ControlBrushKey}}">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="130*" />
+            <RowDefinition Height="431*" />
+        </Grid.RowDefinitions>
+        <GroupBox Name="grpSort" Header="Sort By" Margin="150,0,150,0" VerticalAlignment="Stretch" BorderBrush="{StaticResource {x:Static SystemColors.ActiveCaptionTextBrushKey}}">
+            <StackPanel Name="stpSortOptions" Orientation="Vertical">
+                <RadioButton Name="rdoAll" Content="All" Margin="5,5,0,5"/>
+                <StackPanel Name="stpMachines" Orientation="Horizontal" Margin="5,5,0,0">
+                    <RadioButton Name="rdoMachines" Content="Machine" Checked="rdoMachines_Checked" />
+                    <ComboBox Name="cboMachines" Margin="23,0,0,0"/>
+                </StackPanel>
+                <StackPanel Name="stpBatchType" Orientation="Horizontal" Margin="5,5,0,0">
+                    <RadioButton Name="rdoBatchTypes" Content="Batch Type" />
+                    <ComboBox Name="cboBatchTypes" Margin="10,0,0,0"/>
+                </StackPanel>
+                <StackPanel Name="stpMixDate" Orientation="Horizontal" Margin="5,5,0,0">
+                    <RadioButton Name="rdoMixDate" Content="Mix Date" />
+                    <DatePicker Name="dtpMixDate" Margin="10,0,0,0" Padding="0,0,0,0" BorderBrush="{x:Null}" />
+                </StackPanel>
+            </StackPanel>
+        </GroupBox>
+        <DataGrid Name="dgHistory" Grid.Row="1" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"></DataGrid>
+    </Grid>
+</Window>

@@ -1,0 +1,5 @@
+	To compile the program simply type make.  To run the program type ./server and a port number. The client is a python script and can be ran by simply typing "python Client.py" and following the instructions on screen.
+
+
+Notes:
+	There isn't a lot of error checking here.  The errors it does check will be handeled gracefully and the client recognizes the error codes.  The basic format for a messages is COMMAND:{arguments}. For example GET_NAME:123456789 would be a request for a name. There can be 0 to n arguments as long as the entire string is no longer than 1024 characters.  I've left most of the degbugging code in the server so it is very verbose, the client is a bit more clean.  The reply structure of the message is PASS/FAIL:{arguments}. For example 1:Walker,Andrew would be a succesfull return from the get name function.  

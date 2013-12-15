@@ -1,0 +1,41 @@
+﻿<Window x:Class="TTU.CSC4950.SMC.PresentationLayer.AddBatchTypeWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="AddBatchTypeWindow" Height="343" Width="384" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" WindowStyle="ToolWindow">
+    <Grid>
+        <StackPanel Name="stpDetails" Grid.Column="1">
+            <StackPanel Name="stpName" Orientation="Horizontal" Margin="0,5,0,0">
+                <Label Name="lblName" Content="Name: " Margin="5,0,0,0"  HorizontalContentAlignment="Center"/>
+                <TextBox Name="txtName" Margin="112,0,0,0" Width="100"/>
+            </StackPanel>
+            <StackPanel Name="stpVariableA" Orientation="Horizontal" Margin="0,5,0,0">
+                <Label Name="lblVariableA" Content="Variable A: " Margin="5,0,0,0"  HorizontalContentAlignment="Center"/>
+                <TextBox Name="txtVariableA" Margin="90,0,0,0" Width="100"/>
+            </StackPanel>
+            <StackPanel Name="stpVariableB" Orientation="Horizontal" Margin="0,5,0,0">
+                <Label Name="lblVariableB" Content="Variable B: " Margin="5,0,0,0"  HorizontalContentAlignment="Center"/>
+                <TextBox Name="txtVariableB" Margin="90,0,0,0" Width="100"/>
+            </StackPanel>
+            <StackPanel Name="stpTemperatureRequirement" Orientation="Horizontal" Margin="0,5,0,0">
+                <Label Name="lblTemperatureRequirement" Content="Temperature Requirement: " Margin="5,0,0,0"  HorizontalContentAlignment="Center"/>
+                <TextBox Name="txtTemperatureRequirement" Margin="4,0,0,0" Width="100"/>
+            </StackPanel>
+            <StackPanel Name="stpViscosityRequirement" Orientation="Horizontal" Margin="0,5,0,0">
+                <Label Name="lblViscosityRequirement" Content="Viscosity Requirement: " Margin="5,0,0,0"  HorizontalContentAlignment="Center"/>
+                <TextBox Name="txtViscosityRequirement" Margin="25,0,0,0" Width="100"/>
+            </StackPanel>
+            <StackPanel Name="stpSpeedRequirement" Orientation="Horizontal" Margin="0,5,0,0">
+                <Label Name="lblSpeedRequirement" Content="Speed Requirement: " Margin="5,0,0,0"  HorizontalContentAlignment="Center"/>
+                <TextBox Name="txtSpeedRequirement" Margin="38,0,0,0" Width="100"/>
+            </StackPanel>
+            <StackPanel Name="stpTimeRequirement" Orientation="Horizontal" Margin="0,5,0,0">
+                <Label Name="lblTimeRequirement" Content="Time Requirement: " Margin="5,0,0,0"  HorizontalContentAlignment="Center"/>
+                <TextBox Name="txtTimeRequirement" Margin="44,0,0,0" Width="100"/>
+            </StackPanel>
+            <StackPanel Name="stpButtons" Orientation="Horizontal" Margin="0,5,0,0">
+                <Button Name="btnConfirm" Content="Confirm" Width="120" Height="40" Click="btnConfirm_Click" />
+                <Button Name="btnCancel" Content="Cancel" Width="120" Height="40" Margin="120,0,0,0" Click="btnCancel_Click" />
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>

@@ -1,0 +1,50 @@
+﻿<Window x:Class="TTU.CSC4950.SMC.PresentationLayer.NewBatchWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="NewBatchWindow" Height="350" Width="1024" Background="{StaticResource {x:Static SystemColors.ControlBrushKey}}">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="265*" />
+            <ColumnDefinition Width="737*" />
+        </Grid.ColumnDefinitions>
+        <StackPanel Name="stpOptions" Orientation="Vertical" Margin="0,0,0,0">
+            <StackPanel Name="stpBatchType" Orientation="Horizontal" Margin="5,5,0,0">
+                <Label Name="lblBatchTypes" Content="Batch Type" />
+                <ComboBox Name="cboBatchTypes" Margin="88,0,0,0"/>
+            </StackPanel>
+            <StackPanel Name="stpVariableA" Orientation="Horizontal" Margin="5,5,0,0">
+                <Label Name="lblVariableA" Content="Variable A:" />
+                <TextBox Name="txtVariableA" Width="60" Margin="90,5,5,5"/>
+            </StackPanel>
+            <StackPanel Name="stpVariableB" Orientation="Horizontal" Margin="5,5,0,0">
+                <Label Name="lblVariableB" Content="Variable B:" />
+                <TextBox Name="txtVariableB" Width="60" Margin="90,5,5,5"/>
+            </StackPanel>
+            <StackPanel Name="stpTemperatureReq" Orientation="Horizontal" Margin="5,5,0,0">
+                <Label Name="lblTemperatureReq" Content="Temperature Requirement:" />
+                <TextBox Name="txtTemperatureReq" Width="60" Margin="5,5,5,5"/>
+            </StackPanel>
+            <StackPanel Name="stpViscosityReq" Orientation="Horizontal" Margin="5,5,0,0">
+                <Label Name="lblViscosityReq" Content="Viscosity Requirement:" />
+                <TextBox Name="txtViscosityReq" Width="60" Margin="27,5,5,5"/>
+            </StackPanel>
+            <StackPanel Name="stpSpeedReq" Orientation="Horizontal" Margin="5,5,0,0">
+                <Label Name="lblSpeedReq" Content="Speed Requirement:" />
+                <TextBox Name="txtSpeedReq" Width="60" Margin="39,5,5,5"/>
+            </StackPanel>
+            <StackPanel Name="stpTimeReq" Orientation="Horizontal" Margin="5,5,0,0">
+                <Label Name="lblTimeReq" Content="Time Requirement:" />
+                <TextBox Name="txtTimeReq" Width="60" Margin="47,5,5,5"/>
+            </StackPanel>
+            <Button Name="btnStart" Content="Start Batch" Click="btnStart_Click" Height="40" Margin="75,5,75,0"/>
+        </StackPanel>
+        <StackPanel Name="stpStatus" Orientation="Horizontal" Grid.Column="1">
+            <Label Content="Tank is Ready" Grid.Column="1" Height="auto" HorizontalAlignment="Left" Margin="0" Name="lblStatus1" VerticalAlignment="Stretch" VerticalContentAlignment="Center" HorizontalContentAlignment="Stretch" Width="90" Visibility="Hidden" />
+            <Label Content="Tank is Full" Grid.Column="1" Height="auto" HorizontalAlignment="Left" Margin="0" Name="lblStatus2" VerticalAlignment="Stretch" VerticalContentAlignment="Center" HorizontalContentAlignment="Stretch" Width="90" Visibility="Hidden" />
+            <Label Content="Tank is Full Again" Grid.Column="1" Height="auto" HorizontalAlignment="Left" Margin="0" Name="lblStatus3" VerticalAlignment="Stretch" VerticalContentAlignment="Center" HorizontalContentAlignment="Stretch" Width="110" Visibility="Hidden" />
+            <Label Content="Additives Added" Grid.Column="1" Height="auto" HorizontalAlignment="Left" Margin="0" Name="lblStatus4" VerticalAlignment="Stretch" VerticalContentAlignment="Center" HorizontalContentAlignment="Stretch" Width="100" Visibility="Hidden" />
+            <Label Content="Mixing Started" Grid.Column="1" Height="auto" HorizontalAlignment="Left" Margin="0" Name="lblStatus5" VerticalAlignment="Stretch" VerticalContentAlignment="Center" HorizontalContentAlignment="Stretch" Width="90" Visibility="Hidden" />
+            <Label Content="Mixing Finished" Grid.Column="1" Height="auto" HorizontalAlignment="Left" Margin="0" Name="lblStatus6" VerticalAlignment="Stretch" VerticalContentAlignment="Center" HorizontalContentAlignment="Stretch" Width="100" Visibility="Hidden" />
+        </StackPanel>
+    </Grid>
+</Window>

@@ -1,0 +1,4 @@
+	I don't think I did anything very well in this assignment.  I thought how the pattern finding in the "database" was very interesting.  I think that the Your 0 upset you 0 pattern is rather hard to break.  I think the choosing the random element from new list of catch-alls was about as symplistic as it could be.
+	I left the mother and childhood responses out of the transcript of bad responses because they are both clearly good and bad responses.  While they both will usually be true, they were intended more as a crack on Freudian psychology than meaningful responses.  The [14] and the first [22] fail due to improper pronoun substitution.  The last fails because love is not recognized and my binds to a bad thought.  The other's simply incorrectly place patterns in the return list.  One of the major problems whith the patterns is that one pattern can not count for singular/plural cases, different tenses, etc etc.  
+	
+	

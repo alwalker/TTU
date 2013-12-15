@@ -1,0 +1,19 @@
+[14]>(eliza '(I feel like im going crazy))
+(WHY DO YOU FEEL LIKE IM GOING CRAZY ?)
+[16]> (eliza '(Those things in the back room they are mine))
+(WHY DO YOU FEEL SO POSSIVE ABOUT THOSE THINGS IN THE BACK ROOM THEY ?)
+[17]> (eliza '(I hate you))
+(WHY DO YOU HATE I ?)
+[22]> (eliza '(I do not like the way my hair looks))
+(WHAT IS IT ABOUT YOUR HAIR LOOKS THAT BOTHERS YOU?)
+[22]> (eliza '(My room mates upset me at night))
+(WHY DO YOUR ROOM MATES BOTHER YOU)
+Break 1 [22]> (eliza '(I do not think that you are a good psych))
+(AND WHY DO YOU NOT THINK THAT I ARE A GOOD PSYCH ?)
+Break 1 [22]> (eliza '(I am not too not happy about myself))
+(WHY DOES THIS BOTHER YOU SO MUCH?)
+Break 1 [22]> (eliza '(I LOVE MY KITTY))
+(WHAT IS IT ABOUT YOUR KITTY THAT BOTHERS YOU?)
+
+	I left the mother and childhood responses out here because they are both clearly good and bad responses.  While they both will usually be true, they were intended more as a crack on Freudian psychology than meaningful responses.  The [14] and the first [22] fail due to improper pronoun substitution.  The last fails because love is not recognized and my binds to a bad thought.  The other's simply incorrectly place patterns in the return list.
+
